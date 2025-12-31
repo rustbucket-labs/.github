@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/images/rust-bucket-banner.svg" alt="Rust Bucket Banner" width="600">
+  <img src="../images/rust-bucket-banner.svg" alt="Rust Bucket Banner" width="600">
 </p>
 
 ---
