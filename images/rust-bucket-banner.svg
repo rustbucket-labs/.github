@@ -1,0 +1,98 @@
+<svg width="960" height="240" viewBox="0 0 960 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rust-Bucket Object Storage</title>
+  <desc id="desc">Logo banner for the Rust-Bucket S3-compatible object storage server written in Rust.</desc>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="960" height="240" fill="#0b0c10" rx="24" />
+
+  <!-- Subtle gradient overlay -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14161f" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#050816" />
+    </linearGradient>
+
+    <!-- Rust-themed bucket body gradient -->
+    <linearGradient id="bucketBodyRust" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>   <!-- Rust orange highlight -->
+      <stop offset="45%" stop-color="#ea580c"/>  <!-- Deeper orange -->
+      <stop offset="100%" stop-color="#7c2d12"/> <!-- Dark rusty brown -->
+    </linearGradient>
+
+    <!-- Liquid gradient (molten / glowing Rust color) -->
+    <linearGradient id="bucketLiquidRust" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="50%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="944" height="224" fill="url(#bgGradient)" rx="20" />
+
+  <!-- Left emblem circle -->
+  <circle cx="140" cy="120" r="80" fill="#111827" />
+  <circle cx="140" cy="120" r="78" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 6" stroke-linecap="round" />
+
+  <!-- Rust-themed Bucket Icon -->
+  <!-- Metallic rim base -->
+  <ellipse cx="140" cy="100" rx="44" ry="10" fill="#e5e7eb"/>
+  <ellipse cx="140" cy="102" rx="40" ry="8" fill="#cbd5e1"/>
+
+  <!-- Slight rust accents on the rim -->
+  <circle cx="118" cy="100" r="2" fill="#ea580c" opacity="0.7" />
+  <circle cx="162" cy="104" r="2" fill="#c2410c" opacity="0.7" />
+
+  <!-- Bucket body with rust gradient -->
+  <path d="M100 102 L180 102 L170 168 C168 178 160 184 140 184 C120 184 112 178 110 168 Z"
+        fill="url(#bucketBodyRust)" stroke="#78350f" stroke-width="2" />
+
+  <!-- Subtle vertical highlight to suggest metal -->
+  <path d="M134 104 C128 124 128 152 134 176"
+        fill="none" stroke="#fed7aa" stroke-width="1.5" opacity="0.35" />
+
+  <!-- Liquid interior (molten / glowing) -->
+  <path d="M104 120 C118 112 132 116 140 120 C150 124 162 126 176 118 L176 132 C162 140 150 138 140 132 C130 126 118 124 104 132 Z"
+        fill="url(#bucketLiquidRust)" opacity="0.9" />
+
+  <!-- Handle (darker steel with warm tint) -->
+  <path d="M112 92 C118 62 162 62 168 92"
+        fill="none" stroke="#e5e7eb" stroke-width="3" stroke-linecap="round" />
+  <!-- Tiny rust spots on handle joints -->
+  <circle cx="112" cy="92" r="2" fill="#b45309" opacity="0.8" />
+  <circle cx="168" cy="92" r="2" fill="#b45309" opacity="0.8" />
+
+  <!-- "Rust gears" dots -->
+  <circle cx="140" cy="32" r="4" fill="#f97316" />
+  <circle cx="140" cy="208" r="4" fill="#f97316" />
+  <circle cx="52" cy="120" r="4" fill="#f97316" />
+  <circle cx="228" cy="120" r="4" fill="#f97316" />
+  <circle cx="82" cy="58" r="3" fill="#f97316" />
+  <circle cx="198" cy="58" r="3" fill="#f97316" />
+  <circle cx="82" cy="182" r="3" fill="#f97316" />
+  <circle cx="198" cy="182" r="3" fill="#f97316" />
+
+  <!-- Text -->
+  <g transform="translate(260, 80)">
+    <text x="0" y="0"
+          fill="#e5e7eb"
+          font-size="40"
+          font-weight="700"
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      RUST-BUCKET
+    </text>
+    <rect x="0" y="10" width="260" height="4" rx="2" fill="#38bdf8" />
+    <text x="0" y="52"
+          fill="#9ca3af"
+          font-size="16"
+          font-weight="400"
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      High-performance, S3-compatible object storage built in Rust
+    </text>
+  </g>
+
+  <!-- Subtle corner accent -->
+  <path d="M820 40 L920 40 L920 140" fill="none" stroke="#1f2937" stroke-width="2" />
+  <circle cx="920" cy="40" r="4" fill="#38bdf8" />
+  <circle cx="820" cy="140" r="3" fill="#4b5563" />
+</svg>

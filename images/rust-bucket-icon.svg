@@ -1,0 +1,62 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rust-Bucket Logo</title>
+  <desc id="desc">Square icon for the Rust-Bucket S3-compatible object storage server written in Rust.</desc>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="512" height="512" rx="64" fill="#0b0c10" />
+
+  <!-- Rust emblem circle -->
+  <circle cx="256" cy="256" r="180" fill="#111827" />
+  <circle cx="256" cy="256" r="178" fill="none" stroke="#38bdf8" stroke-width="6" stroke-dasharray="6 10" stroke-linecap="round" />
+
+  <!-- Bucket gradients -->
+  <defs>
+    <linearGradient id="bucketBodyRust" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="45%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="bucketLiquidRust" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="50%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bucket rim -->
+  <ellipse cx="256" cy="200" rx="95" ry="22" fill="#e5e7eb"/>
+  <ellipse cx="256" cy="206" rx="86" ry="16" fill="#cbd5e1"/>
+
+  <!-- Rust accents on rim -->
+  <circle cx="225" cy="198" r="4" fill="#ea580c" opacity="0.7" />
+  <circle cx="285" cy="208" r="4" fill="#c2410c" opacity="0.7" />
+
+  <!-- Bucket body -->
+  <path d="M170 206 L342 206 L322 350 C318 366 304 378 256 378 C208 378 194 366 190 350 Z"
+        fill="url(#bucketBodyRust)" stroke="#78350f" stroke-width="4" />
+
+  <!-- Subtle vertical highlight -->
+  <path d="M248 210 C236 250 236 300 248 360"
+        fill="none" stroke="#fed7aa" stroke-width="2.5" opacity="0.35" />
+
+  <!-- Liquid interior -->
+  <path d="M188 240 C216 224 240 232 256 240 C280 248 304 254 330 234 L330 264 C304 278 280 274 256 264 C232 254 216 250 188 264 Z"
+        fill="url(#bucketLiquidRust)" opacity="0.9" />
+
+  <!-- Handle -->
+  <path d="M208 186 C220 136 292 136 304 186"
+        fill="none" stroke="#e5e7eb" stroke-width="8" stroke-linecap="round" />
+  <!-- Handle rust spots -->
+  <circle cx="208" cy="186" r="6" fill="#b45309" opacity="0.8" />
+  <circle cx="304" cy="186" r="6" fill="#b45309" opacity="0.8" />
+
+  <!-- Rust gear dots -->
+  <circle cx="256" cy="96" r="10" fill="#f97316" />
+  <circle cx="256" cy="416" r="10" fill="#f97316" />
+  <circle cx="96" cy="256" r="10" fill="#f97316" />
+  <circle cx="416" cy="256" r="10" fill="#f97316" />
+  <circle cx="152" cy="148" r="8" fill="#f97316" />
+  <circle cx="360" cy="148" r="8" fill="#f97316" />
+  <circle cx="152" cy="364" r="8" fill="#f97316" />
+  <circle cx="360" cy="364" r="8" fill="#f97316" />
+</svg>
